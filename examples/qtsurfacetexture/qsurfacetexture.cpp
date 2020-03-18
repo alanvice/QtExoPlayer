@@ -19,7 +19,7 @@ class SurfaceTextureShader : QSGSimpleMaterialShader<State>
 {
     QSG_DECLARE_SIMPLE_COMPARABLE_SHADER(SurfaceTextureShader, State)
 public:
-    // vertex & fragment shaders are shamelessly "stolen" from MyGLSurfaceView.java :)
+    // vertex & fragment shaders are shamelessly "stolen" from  :)
     const char *vertexShader() const override {
         return
                 "uniform mat4 qt_Matrix;                            \n"

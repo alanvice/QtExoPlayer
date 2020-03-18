@@ -21,6 +21,12 @@ QML_IMPORT_PATH =
 include(deployment.pri)
 
 DISTFILES += \
+    android/build.gradle \
+    android/gradle/wrapper/gradle-wrapper.jar \
+    android/gradle/wrapper/gradle-wrapper.properties \
+    android/gradlew \
+    android/gradlew.bat \
+    android/res/values/libs.xml \
     android/src/com/kdab/android/SurfaceTextureListener.java \
     android/AndroidManifest.xml
 
